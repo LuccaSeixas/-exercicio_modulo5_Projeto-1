@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'valorant'; /*Fonte para o logo*/
+    src:url(./fontes/Valorant\ Font.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'mark'; /*Fonte para h1 e h2*/
+    src:url(./fontes/Mark-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Futurist '; /*Fonte para p*/
+    src:url(./fontes/FUTRFW.TTF) format('truetype');
+    font-weight: normal;
+}
+
+header{
+    font-family: mark;
+}
+
+.logo-valorant{
+    font-family: valorant;
+}
+
+header{
+    padding: 16px;
+    background-color: black;
+    color: azure;
+}
+
+header .container, 
+header .header-site{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-site {
+    margin-right: 8px;
+}
+
+header li{
+    display: inline;
+}
+
+header nav li a{
+    text-decoration: none;
+    margin-left: 16px;
+    color: azure;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
