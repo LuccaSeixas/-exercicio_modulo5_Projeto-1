@@ -7,19 +7,16 @@
 @font-face{
     font-family: 'valorant'; /*Fonte para o logo*/
     src:url(./fontes/Valorant\ Font.ttf) format('truetype');
-    font-weight: normal;
 }
 
 @font-face{
     font-family: 'mark'; /*Fonte para h1 e h2*/
     src:url(./fontes/Mark-Regular.ttf) format('truetype');
-    font-weight: normal;
 }
 
 @font-face{
     font-family: 'futurist'; /*Fonte para p*/
     src:url(./fontes/FUTRFW.TTF) format('truetype');
-    font-weight: normal;
 }
 
 body, input, textarea, button{
@@ -29,16 +26,22 @@ body, input, textarea, button{
 
 header{
     font-family: mark;
+    font-weight: normal;
 }
 
 .name-valorant{
     font-family: valorant;
+    font-weight: normal;
 }
 
 header{
     padding: 16px;
     background-color: black;
     color: #FF5252;
+}
+
+header h1{
+    font-weight: normal;
 }
 
 header .container, 
