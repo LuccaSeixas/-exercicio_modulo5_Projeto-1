@@ -19,28 +19,72 @@
             <nav>
             <ul>
                 <li>
-                    <a href="#About">Sobre o jogo</a>
+                    <a href="#rules">Regras para envio</a>
                 </li>
                 <li>
-                    <a href="#best-play">Envie sua jogada</a>
+                    <a href="#send-play">Envie sua jogada</a>
+                </li>
+                <li>
+                    <a href="#contact">Siga-nos</a>
                 </li>
             </ul>
             </nav>
         </div>
     </header>
-    <section id="About">
+    <section id="rules">
         <div class="container">
-            <img src="./images/capa-valorant.jfif" alt="Sage segurando um arma e Omen atrás dela">
-            <h2>Sobre o jogo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam placeat dolor in totam asperiores pariatur numquam quidem, consectetur accusamus optio. Nam, similique. A illo doloremque, assumenda rerum temporibus quisquam deleniti?</p>
+            <div class="background-valorant">
+                <img src="./images/capa-valorant.jfif" alt="Sage segurando um arma e Omen atrás dela">
+            </div>
+            <div>
+                <h2>Regras para envio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam placeat dolor in totam asperiores pariatur numquam quidem, consectetur accusamus optio. Nam, similique. A illo doloremque, assumenda rerum temporibus quisquam deleniti?</p>
+            </div>
         </div>
     </section>
-    <section id="best-play">
+    <section id="send-play">
         <div class="container">
-            <form>
-                <h3>Quer enviar sua melhor jogada ?</h3>
-            </form>
+            <h2>Quer enviar sua melhor jogada ?</h2>
+            <div class="form-plays">
+                <div>
+                    <form>
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="E-mail">
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <input type="file">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="video">
+                    <video autoplay loop muted>
+                        <source src="./videos/best plays.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+                <h2>Siga-nos</h2>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook"><img src="./images/facebook.png" alt="Logo do Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram"><img src="./images/instagram.png" alt="Logo do Instagram"></a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Youtube"><img src="./images/youtube.png" alt="Logo do Youtube"></a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Jogadas do Valorant - Todos direitos reservados - 2022</p>
+        </div>
+    </footer>
 </body>
 </html>

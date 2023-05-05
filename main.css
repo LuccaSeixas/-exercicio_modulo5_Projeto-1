@@ -17,23 +17,28 @@
 }
 
 @font-face{
-    font-family: 'Futurist '; /*Fonte para p*/
+    font-family: 'futurist'; /*Fonte para p*/
     src:url(./fontes/FUTRFW.TTF) format('truetype');
     font-weight: normal;
+}
+
+body, input, textarea, button{
+    font-family: futurist;
+    background-color: #1a1f2a;
 }
 
 header{
     font-family: mark;
 }
 
-.logo-valorant{
+.name-valorant{
     font-family: valorant;
 }
 
 header{
     padding: 16px;
     background-color: black;
-    color: azure;
+    color: #FF5252;
 }
 
 header .container, 
@@ -43,18 +48,21 @@ header .header-site{
     justify-content: space-between;
 }
 
-header .header-site {
-    margin-right: 8px;
+.name-valorant {
+    margin-left: 8px;
+    margin-top: 8px;
 }
 
 header li{
     display: inline;
+    font-size: 18px;
 }
 
 header nav li a{
     text-decoration: none;
     margin-left: 16px;
-    color: azure;
+    color: #FF5252;
+    font-size: 18px;
 }
 
 header nav li a:hover{
@@ -65,4 +73,100 @@ header nav li a:hover{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+section .container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container img{
+    height: 480px;
+    margin-right: 32px;
+}
+
+section h2,
+section h3,
+section p{
+    color: #FF5252;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+#send-play h2{
+    margin-bottom: 32px;
+}
+
+#send-play .container,
+#contact .container{
+    display: block;
+}
+
+.form-plays
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+input[type="file"] {
+    border: none;
+    outline: none;
+    content: none;
+}
+
+input[type="file"]::after {
+    content: "Escolha um arquivo";
+}
+
+form textarea{
+    resize: none;
+    height: 124px;
+}
+
+form button{
+    background-color: #FF5252;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #ff6f6f;
+}
+
+video{
+    height: 380px;
+}
+
+#contact .container img{
+    height: 32px;
+}
+
+#contact .container li{
+    display: inline;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    padding: 16px 0;
+    color: #fff;
+    margin-top: 64px;
 }
